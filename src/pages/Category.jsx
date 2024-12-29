@@ -32,7 +32,7 @@ heading={'Order Online'}></SectionTitle>
       className="mySwiper mb-24 mt-10 "
     >
       <SwiperSlide><img src={slide1}/>
-      <h3 className="text-4xl uppercase text-center text-white  -mt-16 md:mr-20">Salads</h3>
+      <h3 className="text-4xl uppercase text-center text-white  -mt-16 md:mr-20 mb-10">Salads</h3>
       </SwiperSlide>
       <SwiperSlide><img src={slide2}/>
       <h3 className="text-4xl uppercase text-center text-white  -mt-16 md:mr-20">Pizzas</h3></SwiperSlide>

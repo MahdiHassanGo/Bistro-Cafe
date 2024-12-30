@@ -5,6 +5,7 @@ import {
   } from "react-router-dom";
 import Main from "../Layouts/Main";
 import Home from "../pages/Home";
+import Menu from "../pages/Menu";
 
 
 
@@ -17,6 +18,9 @@ import Home from "../pages/Home";
         {
           path:'/',
           element:<Home></Home>
+        },{
+          path:'/menu',
+          element:<Menu></Menu>
         }
       ]
     },
